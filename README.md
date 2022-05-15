@@ -10,5 +10,6 @@ Instruções para execução do sistema:
 6. docker-compose down e apos conclusão, docker-compose up
 7. Em outro terminal executar: docker-compose exec web sh
 8. python manage.py createsuperuser
-9. python manage.py migrate
-10. Abrir a aplicação em localhost:8001
+9. python manage.py makemigrations api
+10. python manage.py migrate
+11. Abrir a aplicação em localhost:8001
